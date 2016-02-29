@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Math Functions</title>
+    <script>
+//        task1
+//        var a=prompt("Enter a positive number");
+//a=parseInt(a);
+//if(a>=0){
+//document.write("number: "+ a +"<br>");
+//document.write("round off value: "+ Math.round(a)+"<br>");
+//document.write("floor value: "+ Math.floor(a)+"<br>");
+//document.write("ceil value: "+ Math.ceil(a)+"<br>");}
+//else{
+//    document.write("Write a positive integer");
+//}
+
+
+//        task2
+//var a=prompt("Enter a negative number");
+//a=parseInt(a);
+//if(a<0){
+//    document.write("number: "+ a +"<br>");
+//    document.write("round off value: "+ Math.round(a)+"<br>");
+//    document.write("floor value: "+ Math.floor(a)+"<br>");
+//    document.write("ceil value: "+ Math.ceil(a)+"<br>");}
+//else{
+//    document.write("Write a negative integer");
+//}
+
+//        task3
+//var a=prompt("Enter a number");
+//a=parseFloat(a);
+//if(a>=0){
+//    document.write("number: "+ a +"<br>");
+//    document.write("round off value: "+ Math.round(a)+"<br>");
+//    document.write("floor value: "+ Math.floor(a)+"<br>");
+//    document.write("ceil value: "+ Math.ceil(a)+"<br>");}
+//else{
+//    document.write("Write a positive float");
+//}
+
+//        task4
+//var a=prompt("Enter a negative number");
+//a=parseFloat(a);
+//if(a<0){
+//    document.write("number: "+ a +"<br>");
+//    document.write("round off value: "+ Math.round(a)+"<br>");
+//    document.write("floor value: "+ Math.floor(a)+"<br>");
+//    document.write("ceil value: "+ Math.ceil(a)+"<br>");}
+//else{
+//    document.write("Write a negative float");
+//}
+
+//        task5
+//var a=prompt("Enter a number");
+//a = Number(a);
+//document.write("The absolute value of "+a+" is "+Math.abs(a));
+
+
+//        task6
+//var a=Math.random();
+//a= a*6;
+//a=  Math.round(a);
+//document.write("random dice value: "+a);
+
+//        task7
+//var a=Math.random();
+//a= a*2;
+//a=  Math.round(a);
+//if(a==2){
+//document.write("random coin value: head");}
+//else{
+//    document.write("random coin value: tail");
+//}
+
+//        task8
+//var a=Math.random();
+//a= a*100;
+//a=  Math.round(a);
+//document.write("random number between 1 and 100: "+a);
+
+
+//        task9
+//var a = prompt("Enter your weight in kilograms");
+//var b = parseFloat(a);
+//document.write("The weight of user is "+b+ " kilograms.");
+
+
+//        task10
+//        var a=Math.random();
+//        a= a*10;
+//        a = Math.round(a);
+//        var b = prompt("Enter a number between 1 and 10");
+//        b=parseInt(b);
+//        if(a==b){
+//            document.write("Congratulations! You win");
+//        }
+//        else{
+//            alert("Try Again");
+//        }
+
+//        task11
+//var a = new Date();
+//document.write(a);
+
+//        task12
+//var arr=["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+//var a = new Date();
+//var month = a.getMonth();
+//document.write("Current Month: " +arr[month]);
+
+
+//        task13
+//var arr= ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"];
+//var a = new Date();
+//var day = a.getDay();
+//document.write("Today is " +arr[day]);
+
+
+//        task14
+//var a = new Date();
+//var day = a.getDay();
+//if(day==5 || day==6){
+//document.write("It's Fun day");}
+//else{
+//    document.write("Working day");
+//}
+
+//        task15
+//var a = new Date();
+//var date = a.getDate();
+//if(date<=15){
+//    document.write("First Fifteen days of the month");
+//}
+//else{
+//    document.write("Last days of the month");
+//}
+
+
+//        task16
+//var a = new Date();
+//document.write("Current Date: "+a+"<br>");
+//var time = a.getTime();
+//document.write("Elapsed milliseconds since January 1,1970: "+time+"<br>");
+//var time2 = time/(1000*60*60);
+//document.write("Elapsed minutes since January 1,1970: "+time2+"<br>");
+
+
+//        task17
+//var a = new Date();
+//var timing = a.getHours();
+//if(timing>=0 && timing<=11){
+//    document.write("It's AM");
+//}
+//else{
+//    document.write("It's PM");
+//}
+
+
+//        task18
+//var a = new Date("Dec 31,2020");
+//document.write(a);
+
+//        task19
+//var a = new Date("June 18,2015");
+//var b = new Date();
+//a= a.getTime();
+//b= b.getTime();
+//var c = b - a;
+//c =c /(1000*60*60*24);
+//c = Math.round(c);
+//document.write(c+" days have passed since 1st Ramadan, 2015");
+
+//        task20
+//var a=new Date();
+//document.write("On reference date "+a+"<br>");
+//a= a.getTime();
+//var b = new Date("January 1,2015");
+//b= b.getTime();
+//var c=a-b;
+//c =c /(1000*60);
+//c = Math.round(c);
+//document.write(c+" seconds have passed since beginning of 2015");
+
+
+
+//        task21
+//var a=new Date();
+//document.write("Current Date: "+a+"<br>");
+//var c = a.getHours();
+//a.setHours(c-1);
+//document.write("1 hour ago,it was "+ a);
+
+
+
+//        task22
+//var a = new Date();
+//        document.write("Current date: "+a+"<br>");
+//        var b = a.getFullYear();
+//a.setFullYear(b-100);
+//        document.write("100 years back, it was "+a);
+
+//task23
+//var a = prompt("Enter your age");
+//document.write("Your age is "+a+"<br>");
+//var b = new Date();
+//var c = b.getFullYear();
+//c = c-a;
+//document.write("Your birth year is "+c);
+
+
+
+//task24
+//        document.write("<h1>K-Electric Bill</h1>");
+//        document.write("Customer Name: <b>Sadia Perveen</b><br>");
+//        var a = new Date();
+//        var b = a.getMonth();
+//        var arr=["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+//        document.write("Month: <b>"+arr[b]+"</b><br>");
+//        document.write("Number of units: <b>450</b><br>");
+//        document.write("Charges per unit: <b>14</b><br><br>");
+//        var c = 450*14;
+//        document.write("Net amount payable (within due date): <b>"+ c +"</b><br>");
+//        document.write("Late Payment Surcharge: <b>500</b><br>");
+//        c += 500;
+//        document.write("Net amount payable (within due date): <b>"+ c +"</b><br>");
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<title>Task 8 of chap45-51</title>
+<head>
+    <style>
+        table, td, th {
+            border: 2px solid grey;
+            margin:0px 0px 0px 0px;
+            padding: 0px;
+        }
+        th{
+            background-color: royalblue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+Name:<br>
+<input type="text" id="name"><br>
+Roll number:<br>
+<input type="text" id="rollno"><br>
+Email:<br>
+<input type="email" id="email"><br>
+Course:<br>
+<select id="course" >
+    <option value="MCC Module-A">MCC Module-A</option>
+    <option value="MCC Module-B">MCC Module-B</option>
+</select>
+<br>
+
+<br>
+
+<button onclick="myFunction()">Save</button>
+<br><br>
+
+<table id="myTable">
+    <tr>
+        <th colspan="4">Students Information</th>
+
+    </tr>
+    <tr>
+        <th>Name</th>
+        <th>Roll no.</th>
+        <th>Email</th>
+        <th>Course</th>
+    </tr>
+</table>
+<script>
+    function myFunction() {
+        var table = document.getElementById("myTable");
+        var row = table.insertRow();
+        var cell1 = row.insertCell(0);
+        var cell2 = row.insertCell(1);
+        var cell3 = row.insertCell(2);
+        var cell4 = row.insertCell(3);
+        cell1.innerHTML = document.getElementById('name').value;
+        cell2.innerHTML = document.getElementById('rollno').value;
+        cell3.innerHTML = document.getElementById('email').value;
+        cell4.innerHTML = document.getElementById('course').value;
+
+        document.getElementById('name').value = '';
+        document.getElementById('rollno').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('course').value = '';
+    }
+</script>
+
+</body>
+</html>

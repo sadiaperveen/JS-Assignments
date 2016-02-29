@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Switch</title>
+    <script>
+//        task1
+//var age = prompt("Enter your age");
+//switch (true){
+//    case (age>18):
+//        document.write("Old enough");
+//        break;
+//    default :
+//        document.write("Too young");
+//}
+
+
+//        task2
+//var b = prompt("Enter a number");
+//b = parseInt(b);
+//var a = b%3;
+//switch (a){
+//    case 0:
+//        document.write("Number is divisible by 3");
+//        break;
+//    default :
+//        document.write("Number is not divisible by 3");
+//}
+
+
+//        task3
+//var a = prompt("Enter 1st number");
+//a = parseInt(a);
+//var b = prompt("Enter 2nd number");
+//b = parseInt(b);
+//var c = prompt("Enter operator");
+//switch (c){
+//    case '+':
+//        document.write("Sum of "+a+" and "+b+" is "+(a+b));
+//        break;
+//    case '-':
+//        document.write("Subtract of "+a+" and "+b+" is "+(a-b));
+//        break;
+//    case '*':
+//        document.write("Multiplication of "+a+" and "+b+" is "+(a*b));
+//        break;
+//    case '/':
+//        document.write("Division of "+a+" and "+b+" is "+(a/b));
+//        break;
+//    default :
+//        document.write("Enter the correct operator.");
+//}
+
+
+//        task4
+//var a = new Date();
+//var b = a.getDay();
+//switch (b){
+//    case 1:
+//        document.write("Today is Monday");
+//        break;
+//    case 2:
+//        document.write("Today is Tuesday");
+//        break;
+//    case 3:
+//        document.write("Today is Wednesday");
+//        break;
+//    case 4:
+//        document.write("Today is Thursday");
+//        break;
+//    case 5:
+//        document.write("Today is Friday");
+//        break;
+//    case 6:
+//        document.write("Today is Saturday");
+//        break;
+//    default :
+//        document.write("Today is Sunday");
+//}
+
+
+//        task5
+//var a = new Date();
+//var b = a.getDay();
+//switch (b){
+//    case 0:
+//        document.write("Today is a Holiday");
+//        break;
+//    case 6:
+//        document.write("Today is a Holiday");
+//        break;
+//    default :
+//        document.write("Today is not a Holiday");
+//}
+
+
+//        task6
+//function checkCar() {
+//    var text;
+//    var favCar = prompt("What is your favorite car?");
+//    favCar = favCar.toLowerCase();
+//    switch(favCar) {
+//        case "bmw":
+//            text = "German car";
+//            break;
+//        case "ford":
+//            text = "American car";
+//            break;
+//        case "peugeot":
+//            text = "French car";
+//            break;
+//        default :
+//            text = "Unknown car name";
+//    }
+//    document.write( text);
+//    }
+//    checkCar();
+
+
+//        task7
+//function checkFruit() {
+//    var text;
+//    var fruits = prompt("Enter a fruit name");
+//    fruits = fruits.toLowerCase();
+//    switch(fruits) {
+//        case "banana":
+//            text = "Banana is good!";
+//            break;
+//        case "orange":
+//            text = "I am not a fan of orange.";
+//            break;
+//        case "apple":
+//            text = "How you like them apples?";
+//            break;
+//        default:
+//            text = "I have never heard of that fruit.";
+//    }
+//    document.write( text);
+//}
+//checkFruit();
+
+
+//        task8
+//function marks(x){
+//    x = x.toLowerCase();
+//    switch (x){
+//        case 'a1':
+//            document.write("Marks [ >= 80 and <100 ]");
+//            break;
+//        case 'a':
+//            document.write("Marks [ >= 70 and <80 ]");
+//            break;
+//        case 'b':
+//            document.write("Marks [ >= 60 and <70 ]");
+//            break;
+//        case 'c':
+//            document.write("Marks [ >= 50 and <60 ]");
+//            break;
+//        case 'd':
+//            document.write("Marks [ >= 40 and <50 ]");
+//            break;
+//        default:
+//            document.write("Below 40 are Fail");
+//            break;
+//
+//    }
+//}
+//var a = prompt("Enter the grade");
+//marks(a);
+
+//        task9
+//function month(x){
+//    x = parseInt(x);
+//    switch (x){
+//        case 1:
+//            alert("January");
+//            break;
+//        case 2:
+//            alert("February");
+//            break;
+//        case 3:
+//            alert("March");
+//            break;
+//        case 4:
+//            alert("April");
+//            break;
+//        case 5:
+//            alert("May");
+//            break;
+//        case 6:
+//            alert("June");
+//            break;
+//        case 7:
+//            alert("July");
+//            break;
+//        case 8:
+//            alert("August");
+//            break;
+//        case 9:
+//            alert("September");
+//            break;
+//        case 10:
+//            alert("October");
+//            break;
+//        case 11:
+//            alert("November");
+//            break;
+//        case 12:
+//            alert("December");
+//            break;
+//        default :
+//            alert("Invalid month");
+//    }
+//}
+//var a = prompt("Enter the month number");
+//month(a);
+
+//        task10
+//var a = prompt("Enter your age");
+//a = parseInt(a);
+//var message = a<18 ? document.write("Too Young") : document.write("Old enough");
+
+
+//        task11
+//var a = 1;
+//while(a<=5){
+//    document.write("Hello World1<br>");
+//    a++;
+//}
+//
+//var b = 1;
+//do{
+//    document.write("Hello World2<br>");
+//    b++;
+//}while(b<=5);
+
+//        task12
+//var a = 1;
+//while(a<=10){
+//    document.write(a+"<br>");
+//    a++;
+//}
+//var b = 1;
+//do{
+//    document.write(b+"<br>");
+//    b++;
+//}while(b<=10);
+
+//        task13
+//var a=prompt("Enter a number to print its multiplication table.");
+//var b=prompt("Enter length of multiplication table.");
+//document.write("Multiplication Table of "+a+"<br>");
+//document.write("Length "+b+"<br><br>");
+//
+//var c = 1;
+//while(c<=b){
+//    document.write(a+ " * "+c+" = "+a*c+"<br>");
+//    c++;
+//}
+
+//        task14
+//var a = ["Nokia", "Samsung", "Apple", "Sony", "Huawei"];
+//var b = 0;
+//do{
+//    document.write(a[b]+"<br>");
+//    b++;
+//}while(b< a.length);
+
+
+//        task15
+//var a = ["apple", "banana", "mango", "orange", "strawberry"];
+//var b = 0;
+//do{
+//    document.write(a[b]+"<br>");
+//    b++;
+//}while(b< a.length);
+//document.write("<br><br>");
+//var c = 0;
+//do{
+//    document.write("Element at index "+c+" is "+a[c]+"<br>");
+//    c++;
+//}while(c< a.length);
+
+
+//        task16
+//var a = prompt("Enter number of items");
+//a=parseInt(a);
+//var b = [];
+//var c = 0;
+//document.write("Number of items: "+a+"<br>");
+//document.write("Items: <br><br>");
+//do{
+//b[c]=prompt("Enter value for index "+c);
+//    document.write(b[c]+"<br>");
+//    c++;
+//}while(c<a);
+
+//        task17
+//document.write("Counting <br><br>");
+//var a=1;
+//do{
+//    document.write(a+",");
+//    a++;
+//}while(a<16);
+//
+//document.write("<br><br>");
+//document.write("Reverse Counting <br><br>");
+//var b=10;
+//do{
+//    document.write(b+",");
+//    b--;
+//}while(b>=1);
+//
+//document.write("<br><br>");
+//document.write("Even <br><br>");
+//var c=0;
+//do{
+//    document.write(c+",");
+//    c+=2;
+//}while(c<=20);
+//
+//document.write("<br><br>");
+//document.write("Odd <br><br>");
+//var d=1;
+//do{
+//    document.write(d+",");
+//    d+=2;
+//}while(d<=20);
+//
+//document.write("<br><br>");
+//document.write("Series <br><br>");
+//var e=2;
+//do{
+//    document.write(e+"k,");
+//    e+=2;
+//}while(e<=20);
+//document.write("<br><br>");
+
+//        task18
+//var a = ["cake", "apple pie", "cookie", "chips", "patties"];
+//var b = prompt("Welcome to ABC Bakery. What do you want to order Sir/Ma'am?");
+//var d = false;
+//for(var c=0;c< a.length;c++){
+//    if(b==a[c]){
+//        d = true;
+//        var e = c;
+//        }
+//}
+//if(d){
+//    document.write(b+" is <b>available</b> at index "+e+" in our bakery.")
+//}
+//else{
+//    document.write("We are sorry."+b+" is <b>not available</b> in our bakery");
+//}
+
+//        task19
+//var students = ["Ali", "Sami", "Taha", "Inam"];
+//var scores  = [58, 73, 89, 90];
+//document.write("<table border='1'>");
+//document.write("<tr>");
+//    document.write("<th>Students</th>"+"<th>Scores</th>");
+//document.write("</tr>");
+//var c=0;
+//do{
+//    document.write("<tr>");
+//    document.write("<td>"+students[c]+"</td>"+"<td>"+scores[c]+"</td>");
+//    document.write("</tr>");
+//    c++;
+//}while(c<students.length);
+//document.write("</table>");
+
+//        task20
+//var scores  = [12, 45, 3, 22, 34, 50];
+//var a = prompt("Enter any of the given number.\n"+scores);
+//a = parseInt(a);
+//for(var b=0;b<scores.length;b++){
+//    document.write(scores[b]+",");
+//    if(a==scores[b]){
+//        break;
+//    }
+//}
+
+//        task21
+//var a = [ [1,2,3] , [4,5,6] , [7,8,9] ];
+//var b= 0;
+//do{
+//   var d = a[b];
+//    var c=0;
+//    do{
+//        document.write(d[c]+" ");
+//        c++;
+//    }while(c< d.length);
+//    document.write("<br>");
+//    b++;
+//}while(b< a.length);
+
+//        task22
+//var a = prompt("Enter a number.");
+//do{
+//    document.write(a+", ");
+//    a = a-0.5;
+//}while(a>=0);
+
+
+//        task23
+//var a = 0;
+//do{
+//    if(a%2===0){
+//        document.write(a+" is even.<br>");
+//    }
+//    else{
+//        document.write(a+" is odd.<br>");
+//    }
+//    a++;
+//}while(a<=20);
+
+//        task24
+//var a = 1, b = 1;
+//do{
+//    if(a%2!==0){
+//        b = b*a;
+//    }
+//    a++;
+//}while(a<=7);
+//document.write("The product of the odd integers from 1 to 7 is "+b);
+
+//        task25
+//var a = prompt("Enter initial number of stars.");
+//do{
+//    var b = a;
+//    do{
+//        document.write("*");
+//        b--;
+//    }while(b>=1);
+//    document.write("<br>");
+//    a--;
+//}while(a>=1);
+
+//        task26
+//var a = prompt("Enter initial number of stars.");
+//var b = a - 1;
+//do{
+//    var c = a;
+//    do{
+//        document.write("*");
+//        c--;
+//    }while(c>=1);
+//    document.write("<br>");
+//    b--;
+//}while(b>=1);
+
+
+//var a = prompt("Enter initial number of stars.");
+//var b = 1;
+//do{
+//    var c = b;
+//    do{
+//        document.write("*");
+//        c--;
+//    }while(c>=1);
+//    document.write("<br>");
+//    b++;
+//}while(b<=a);
+
+
+//var a = prompt("Enter initial number of stars.");
+//do{
+//    var b = a;
+//    do{
+//        document.write("*");
+//        b--;
+//    }while(b>=1);
+//    document.write("<br>");
+//    a--;
+//}while(a>=1);
+
+    </script>
+</head>
+<body>
+</body>
+</html>

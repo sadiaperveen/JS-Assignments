@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        //task1
+//        function openLink(){
+//            alert("You click the right link");
+//        }
+
+        //task2
+//        function openLink(){
+//            alert("You click the right button");
+//        }
+//
+//
+//        task3
+//        function openLink(){
+//            var a = prompt("Enter your name");
+//            alert("Hello! " +a);
+//        }
+//
+//
+//        task4
+//        function openLink(){
+//            var a = prompt("Enter your name");
+//            alert("Hello! " +a+"\nLength of user input is "+a.length);
+//        }
+//
+//
+//        task5
+//        function openLink(){
+//            alert("Thanks for purchasing a phone from us");
+//        }
+//
+//        task7
+//        function expandLoris() {
+//            alert("dfvdf");
+//            var expandedParagraph ="The syntax is the same as for other event handlers that you've already learned to code: a keyword, followed by an equal sign, followed by JavaScript or HTML in quotes.<br>After the user enters her email address—or not—and clicks outside the field or pressesthe tab key to move to another field—that is, when this field no longer has the focus—you want it to revert to a white background. You do this with the onBlur keyword, which is the opposite of onFocus. ";
+//            document.getElementById("slowLoris").innerText = expandedParagraph;
+//        }
+
+
+//        task8
+function submission(name,rollno,email,module){
+            var a = [];
+            a[0]=name;
+            a[1]=rollno;
+            a[2]=email;
+            a[3]=module;
+            alert("cdvf");
+            document.getElementById('info').innerHTML=loop(a[0], a[1], a[2], a[3]){
+               document.write("<tr>");
+                for(var b=0;b<4;b++){
+                    document.write("<td>"+a[b]+"</td>");
+                }
+                document.write("</tr>");
+            }
+        }
+    </script>
+    <style type="text/css" relation="stylesheet">
+      /*task5*/
+        /*img{*/
+            /*border:2px solid blue;*/
+            /*height:200px;*/
+            /*width:200px;*/
+        /*}*/
+        #info th{
+            border: 3px solid black;
+            background-color: cadetblue;
+            color: white;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <!--task1-->
+    <!--<a href="Javascript:void(0)" onClick="openLink()">Save Now</a>-->
+
+    <!--task2-->
+    <!--<button onClick="openLink()">Save Now</button>-->
+
+<!--task3-->
+    <!--<a href="Javascript:void(0)" onClick="openLink()">Greet Me</a>-->
+
+<!--task4-->
+    <!--<a href="Javascript:void(0)" onClick="openLink()">Greet Me</a>-->
+
+<!--task5-->
+    <!--<div style="display:inline">-->
+        <!--<img src="img1.png" width="50" height="50" onClick="openLink()"/></br><figurecaption>iPhone6Plus.gif</figurecaption></figure>-->
+        <!--<figure><img src="img1.png" width="50" height="50" onClick="openLink()"/></br><figurecaption>GalaxyS6EdgePlus.gif</figurecaption></figure>-->
+        <!--<figure><img src="img1.png" width="50" height="50" onClick="openLink()"/></br><figurecaption>V10.gif</figurecaption></figure>-->
+        <!--<figure><img src="img1.png" width="50" height="50" onClick="openLink()"/></br><figurecaption>HuaweiP8.gif</figurecaption></figure>-->
+    <!--</div>-->
+
+<!--task6-->
+    <!--<img src="img1.png" height="250px" width="250px" onMouseover="src='img2.png'" onMouseout="src='img1.png'"/>-->
+    <!--<h1>Thomas Edison</h1>-->
+    <!--<br/>-->
+    <!--<h3>Inventer</h3>-->
+    <!--<p>-->
+        <!--Thomas Edison was an American inventor and business man. He developed many devices greatly influenced life around the world, including the photograph.-->
+    <!--</p>-->
+
+
+<!--task6b-->
+
+    <!--<img src="img1.png" width="250px" height="250px" onMouseover="  this.style.width='300px' ;  this.style.height='300px' " onMouseout="  this.style.width='250px'  ;  this.style.height='250px' "/>iPhone6Plus.gif</br>-->
+    <!--<img src="img1.png" width="250px" height="250px" onMouseover="  this.style.width='300px' ;  this.style.height='300px' " onMouseout="  this.style.width='250px' ;  this.style.height='250px' "/>GalaxyS6EdgePlus.gif</br>-->
+    <!--<img src="img1.png" width="250px" height="250px" onMouseover="  this.style.width='300px' ;  this.style.height='300px' " onMouseout="  this.style.width='250px' ;  this.style.height='250px' "/>V10.gif</br>-->
+    <!--<img src="img1.png" width="250px" height="250px" onMouseover=" this.style.width='300px' ;  this.style.height='300px' " onMouseout="  this.style.width='250px' ;  this.style.height='250px' "/>HuaweiP8.gif</br>-->
+
+
+<!--task7-->
+    <!--<h3 color="yellow">AUDIO AND VIDEO</h3>-->
+    <!--<h1>Movie Directors Vs. Producers: What's Differnce?</h1>-->
+    <!--<h3 color="grey">POSTED 01/03/2015 | 2 minutes ago</h3>-->
+
+    <!--<p id="slowLoris">The syntax is the same as for other event handlers that you've already learned to code: a-->
+        <!--keyword, followed by an equal sign, followed by JavaScript or HTML in quotes.-->
+        <!--After the user enters her email address—or not—and clicks outside the field or presses-->
+
+        <!--<a href="javascript:void(0)" onClick="expandLoris()" >Read more...</a>-->
+    <!--</p>-->
+
+<!--task8-->
+<fieldset>
+    <legend><h3>Add Student:</h3></legend>
+    <form onsubmit="submission('name', 'rollno', 'email', 'module');">
+    Student Name:<br><input type="text" id="name" onfocus="this.style.backgroundColor='Aquamarine';" onblur="this.style.backgroundColor='white';"/>
+    <br>Roll Number:<br><input type="text" id="rollno" onfocus="this.style.backgroundColor='Aquamarine';" onblur="this.style.backgroundColor='white';"/>
+    <br><label>Email ID:<br><input type="email" id="email" onfocus="this.style.backgroundColor='Aquamarine ';" onblur="this.style.backgroundColor='white';"/></label>
+    <br><label>Course:<br>
+    <select id="module">
+        <option>MCC: Module A</option>
+        <option>MCC: Module B</option>
+    </select>
+    </label>
+    <br><br><input type="submit" value="Save">
+    </form>
+</fieldset>
+
+<table id="info">
+    <tr><th colspan="4">
+        Students Information
+    </th></tr>
+    <tr>
+        <th>
+         Name
+        </th>
+        <th>
+            Roll Number
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            Course
+        </th>
+    </tr>
+</table>
+</body>
+</html>

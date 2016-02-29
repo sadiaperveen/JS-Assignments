@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Functions</title>
+    <script>
+//        task1
+//function block(){
+//    document.write("This is a function<br>");
+//}
+//block();
+//block();
+//block();
+//block();
+//block();
+
+//task2
+//function calender(){
+//    var a = new Date();
+//    var b = a.getDate();
+//    var c = a.getHours();
+//    var d = a.getMinutes();
+//    var e = a.getSeconds();
+//    document.write("Date is "+b+"<br>");
+//    document.write("Time is "+c+":"+d+":"+e);
+//}
+//calender();
+
+//task3
+//var a = prompt("Enter your first name");
+//var b = prompt("Enter your last name");
+//name(a,b);
+//function name(a,b){
+//    alert("Greetings! "+a+" " +b);
+//}
+
+
+//task4
+//var a = prompt("Enter first number");
+//var b = prompt("Enter second number");
+//var d= number(a,b);
+//document.write("a+b= "+d);
+//function number(a,b){
+//    a = parseInt(a);
+//    b = parseInt(b);
+//    var c = a+b;
+//    return c;
+//}
+
+//task5
+//var a = prompt("Enter first number");
+//var c = prompt("Enter operator");
+//var b = prompt("Enter second number");
+//var d= number(a,c,b);
+//document.write("Result: "+d);
+//function number(a,c,b){
+//    a = parseInt(a);
+//    b = parseInt(b);
+//    switch(c){
+//        case '+':
+//            var e = a + b;
+//            return e;
+//        case '-':
+//            var e = a - b;
+//            return e;
+//        case '*':
+//            var e = a * b;
+//            return e;
+//        case '/':
+//            var e = a / b;
+//            return e;
+//        default :
+//            document.write("Enter a valid operator");
+//            return 0;
+//    }
+//}
+
+
+//task6
+//var a = prompt("Enter a number");
+//var b= square(a);
+//document.write("Square of "+a+" is "+ b);
+//
+//function square(){
+//    var c = parseInt(a);
+//    c = c*c;
+//    return c;
+//}
+
+
+//task7
+//var a = prompt("Enter a number");
+//var b= fact(a);
+//document.write("Factorial of "+a+" is "+ b);
+//
+//function fact(){
+//    var c = parseInt(a);
+//    var e = 1;
+//    for(var d=c; d>=1; d--){
+//    e = e*d;
+//    }
+//    return e;
+//}
+
+
+//task8
+//var a= prompt("Enter start number");
+//var b= prompt("Enter end number");
+//count(a,b);
+//
+//function count(a,b) {
+//    a = parseInt(a);
+//    b = parseInt(b);
+//    for (var c = a; c <= b; c++) {
+//        document.write(c + "<br>");
+//    }
+//}
+
+
+//task9
+//var a= prompt("Enter base of triangle");
+//var b= prompt("Enter perpendicular of triangle");
+//calculateHypotenuse(a,b);
+//
+//
+//function calculateHypotenuse(w,x){
+//    w = parseInt(w);
+//    x = parseInt(x);
+//    var c=calculateSquare(w);
+//    var d=calculateSquare(x);
+//    var e=c+d;
+//
+//    document.write("Hypotenuse of a triangle is "+e);
+//}
+//function calculateSquare(y){
+//    y = y*y;
+//    return y
+//}
+
+//task10
+//var a = prompt("Enter the fruit names");
+//var b = length(a);
+//document.write("Length of "+a+" is "+b);
+//
+//function length(x){
+//    var y = x.length;
+//    return y;
+//}
+
+
+//task11
+//var a = [1, 2, 3, 45, 23, 35, 600, 76, 89];
+//greater(a);
+//
+//function greater(a){
+//    var y = a[0];
+//    for(var c=0; c< a.length-1; c++){
+//        if(y<a[c+1])
+//        y = a[c+1];
+//    }
+//    document.write("Largest number is "+y);
+//}
+
+
+//task12
+//var width = 20;
+//var height = 20;
+//document.write("a.	Arguments as values<br>");
+//area(20,20);
+//document.write("<br>b.	Arguments as variables<br>");
+//area(width,height);
+//
+//function area(a,b){
+//    var c = a*b;
+//    document.write("Area of Rectangle if "+c+ "<br>");
+//}
+
+
+//task13
+//var a = [1, 45, 23, 35, 3,  600, 1, 76, 89, 2];
+//document.write("Unsorted Array: ");
+//for(var d=0; d< a.length; d++){
+//    document.write(a[d]+",");
+//}
+//document.write("<br>");
+//sorting(a);
+//
+//function sorting(a){
+//    for(var b=0; b< a.length; b++){
+//        for(var c=0; c< a.length; c++){
+//            if(a[b]<a[c]) {
+//                var x = a[c];
+//                a[c] = a[b];
+//                a[b] = x;
+//            }
+//        }
+//    }
+//    document.write("Sorted Array: ");
+//    for(var d=0; d< a.length; d++){
+//        document.write(a[d]+ ",");
+//    }
+//}
+
+
+//task14
+//var a = [1, 45, 23, 35, 3,  600, 1, 76, 89, 2];
+//document.write("Array: ");
+//for(var d=0; d< a.length; d++){
+//    document.write(a[d]+",");
+//}
+//document.write("<br>");
+//var c = sum(a);
+//document.write("Sum of array is "+c);
+//
+//
+//function sum(a){
+//    x = a[0];
+//    for(var b=1; b< a.length; b++){
+//        x = x+a[b];
+//    }
+//    return x;
+//}
+
+
+//task15
+//var param = function inner() {
+//    return typeof inner;
+//}
+//alert(param());
+
+
+//task16
+//var a = prompt("Enter the number");
+//var b = prompt("Enter the power of the number");
+//var d = power(a,b);
+//document.write("Result of "+a+" power "+b+" is "+d);
+//function power(x,y){
+//    var e = x;
+//    for(var c=1; c<y; c++){
+//        x = x*e;
+//    }
+//    return x;
+//}
+
+//task17
+//var d = dice();
+//document.write("Value of dice is "+d+"<br>");
+//var d = dice();
+//document.write("Value of dice is "+d+"<br>");
+//var d = dice();
+//document.write("Value of dice is "+d+"<br>");
+//var d = dice();
+//document.write("Value of dice is "+d+"<br>");
+//
+//function dice(){
+//    var a = Math.random();
+//    a = a*6;
+//    a = Math.round(a);
+//    return a;
+//}
+
+
+//task18
+//var x = 32243;
+//document.write("Original number: " + x + "<br>");
+//reverse(x);
+//
+//function reverse(a){
+//    a = a.toString();
+//    var c = [];
+//    var d= a.length -1;
+//    for(var b=0; b< a.length; b++){
+//        c[d]= a.charAt(b);
+//        d--;
+//    }
+//    document.write("Reverse number: ");
+//    for(var b=0; b< c.length; b++){
+//        document.write(c[b]);
+//    }
+//}
+
+//task19
+//var a = prompt("Enter the word");
+//document.write("Word: "+a+"<br>");
+//check(a);
+//
+//function check(x) {
+//    var z = x;
+//    var y = reverse(x);
+//    if (z == y) {
+//        document.write("Word is palindrome");
+//    }
+//    else {
+//        document.write("Word is not palindrome");
+//    }
+//}
+//
+//function reverse(a){
+//    var c = [];
+//    var d= a.length -1;
+//    for(var b=0; b< a.length; b++){
+//        c[d]= a.charAt(b);
+//        d--;
+//    }
+//    c = c.join("");
+//        return c;
+//}
+
+
+//task20
+//var a = prompt("Enter the phrase");
+//document.write("Phrase: "+a+"<br>");
+//titleCase(a);
+//
+//function titleCase(x){
+//    var b = x.split(" ");
+//    document.write("Title case: ");
+//    for(var c=0; c< b.length; c++){
+//        var first = b[c].slice(0,1);
+//        var  second = b[c].slice(1);
+//        document.write(first.toUpperCase()+ second.toLowerCase()+" ");
+//    }
+//}
+
+
+//task21
+//var a = prompt("Enter the phrase");
+//document.write("Phrase: "+a+"<br>");
+//longestWord(a);
+//
+//function longestWord(x){
+//    var b = x.split(" ");
+//    document.write("Longest word: ");
+//    var first = b[0].length;
+//    for(var c=1; c< b.length; c++){
+//        var  second = b[c].length;
+//        if(first<second){
+//            first = second;
+//            var d = c;
+//        }
+//    }
+//    document.write(b[d]);
+//}
+
+
+//task22
+//var a = prompt("Enter the phrase");
+//document.write("Phrase: "+a+"<br>");
+//vowels(a);
+//
+//function vowels(x){
+//    var b = 0;
+//    document.write("Vowels in this phrase is ");
+//    for(var c=1; c< x.length; c++){
+//        var y = x.charAt(c);
+//        if(y=='a' || y=='e' || y=='i' || y=='o' || y=='u'){
+//            b += 1;
+//        }
+//    }
+//    document.write(b);
+//}
+
+
+//task23
+//var a = prompt("Enter something");
+//document.write("Input: "+a+"<br>");
+//typeofarg(a);
+//
+//function typeofarg(x){
+//    var t =[];
+//    for(var b=0; b< x.length; b++){
+//       t[b] = x.charCodeAt(b);alert(t[b]);
+//        if(t[b]==40 || t[b]==41){
+//            document.write("Type of given input is Function <br>");
+//            break;}
+//        else if(t[b]>47 && t[b]<58)
+//            document.write("Type of "+ x.charAt(b) + " is number <br>");
+//        else if(t[b]>64 && t[b]<91 || t[b]>96 && t[b]<123)
+//            document.write("Type of "+ x.charAt(b) + " is string <br>");
+//        else{
+//            document.write("Type of given input is Undefined <br>");
+//            break;
+//        }
+//
+//        }
+//
+//    }
+
+
+//task24
+//var a = "thequickbrownfoxjumpsoverthelazydog";
+//unique(a);
+//
+//function unique(x){
+//    var b = x.indexOf("o", 13);
+//    var e = x.slice(0,b);
+//    var f = [];
+//    for(var c=b; c< a.length; c++){
+//        var d = x.charAt(c);
+//        if(d=='o' || d=='u' || d=='e' || d=='r' || d=='t' || d=='h'){
+//            var r = true;
+//        }
+//        else{
+//            f.push(d);
+//        }
+//    }
+//    f = f.join("");alert(f);
+//    document.write(e+f);
+//}
+
+//task25
+//var a = "JSResourceS.com";
+//document.write(a+"<br>");
+//matching(a);
+//
+//function matching(x){
+//    var res = x.match(/o/g);alert(res);
+//    document.write("Word 'o' appear in "+res.length+" times");
+//}
+
+//task26
+//var a = new Date();
+//var b = a.getFullYear();
+//
+//calculateAge(b,1994);
+//calculateAge(b,1992);
+//calculateAge(b,1990);
+//
+//function calculateAge(currentYear,birthYear){
+//    var c = currentYear - birthYear;
+//    document.write("<h2>The Age Calculator</h2>");
+//    document.write("Current Year: "+ currentYear+"<br>");
+//    document.write("Birth Year: "+birthYear+"<br><br>");
+//    document.write("You are either "+c+" or "+(c+1)+"<br><br><br>");
+//}
+
+//task27
+//function calculateSupply(age,amount){
+//    var a = 85;
+//    var b = (a - age)*amount;
+//    document.write("<h2>The Life Time Supply Calculator</h2><br>");
+//    document.write("Favourite Snack: Oreo Biscuit"+"<br>");
+//    document.write("current Age: "+age+"<br>");
+//    document.write("Estimated Maximum age: 85"+"<br>");
+//    document.write("Amount of Snacks per day: "+amount+"<br><br>");
+//    document.write("You will need "+b+" Oreo biscuits to last you until the ripe old age of 85"+"<br><br>");
+//}
+//
+//calculateSupply(15,2);
+//calculateSupply(20,2.5);
+
+//task28
+//function calcCircumference(radius){
+//    document.write("<h2>Circle</h2><br>");
+//    document.write("Radius: "+radius+"<br>");
+//    var a = Math.PI;
+//    var b = 2*a*radius;
+//    b = Math.round(b);
+//    document.write("The circumference is "+b+"<br>");
+//}
+//function calcArea(radius){
+//    var a = Math.PI;
+//    var b = a*radius*radius;
+//    b = Math.round(b);
+//    document.write("The area is "+b+"<br>");
+//}
+//
+//var r = 23.4;
+//calcCircumference(r);
+//calcArea(r);
+
+
+//task29
+function celsiusToFahrenheit(celsius){
+    var a = (celsius*9/5)+32;
+    document.write(celsius+"'C to "+a+"'F<br>");
+    return a;
+}
+function fahrenheitToCelsius(fahrenheit){
+    var a = (fahrenheit-32)*5/9;
+    document.write(fahrenheit+"'F to "+a+"'C<br>");
+}
+
+        var b = 23;
+        var c = celsiusToFahrenheit(b);
+        fahrenheitToCelsius(c);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

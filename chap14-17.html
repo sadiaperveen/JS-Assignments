@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>arrays</title>
+    <script>
+        //task1
+        //var studentName = [];
+        //var index=prompt("Enter student number 1st name");
+        //studentName.push(index);
+        //alert(studentName[]);
+
+        //task2
+        //var names = new Array();
+        //names.push("1","2");
+        //alert(names);
+
+
+        //task3
+        //        var w = [];
+        //        var array1,arr_item1,arr_item2,arr_item3;
+        //        array1= {
+        //            arr_item1:"abc",
+        //            arr_item2:"def",
+        //            arr_item3:"ghi"
+        //        }
+        //        w[0]=array1.arr_item1;
+        //        alert(w[0]);
+        //        task4,5,6,7
+        //        var r = [];
+        //        r=[1,2,3,4,5,6];
+        //        r=[true,false];
+        //        r=["sadia", true, 1,2,3];
+        //        r=["mobilink","telenor","zong","warid"];
+        //        alert(r);
+
+
+        //        task8
+        //        var qualification = ["SSC", "HSC", "BCS", "BS","BCOM", "MS","M. Phil.","PhD"];
+        //        document.write("<h1>Qualification</h1>");
+        //        var a;
+        //        for(a=0; a<qualification.length ;a++)
+        //        {
+        //            document.write(qualification [a]+ "<br/>");
+        //
+        //        }
+        //        task9
+        //        document.write("<h1>Top Movies of 2015</h1>");
+        //        var r= [];
+        //        var index,a;
+        //        for(a=0;a<=3;a++) {
+        //            index = prompt("Enter Movie name");
+        //            r.push(index);
+        //            document.write(r[a]+ "<br/>");
+        //        }
+        //        document.write("<h3>Length of the array "+ r.length +"</h3>");
+
+        //        task10
+        //        var cars= ["Alto","Audi","Volvo","Ford","Lamborghini"];
+        //        document.write("<h1>Favourite Cars</h1>");
+        //        document.write(cars+"<br/>");
+        //        document.write("First index of the array: 0 <br/>");
+        //        document.write("Car at first index of the array: " +cars[0]+"<br/>");
+        //        document.write("Last index of the array: "+ cars.length+"<br/>");
+        //        document.write("Car at last index of the array: " + cars[cars.length-1] + "<br/>");
+        //
+        //        task11
+        //        var names=["Michael", "Tony", "John"];
+        //        var marks= [320, 230, 480];
+        //        var a;
+        //        for(a=0;a<marks.length;a++){
+        //            var e=(marks[a]/500)*100;
+        //            document.write("Score of " +names[a]+ " is " + marks[a] +". Percentage: " +e+ "%<br/>");
+        //        }
+
+        //        task12
+        //        var colors= ["red" , "blue", "Green"];
+        //        //a
+        //        var e=prompt("what color you want to add at the beginning of the array");
+        //        colors.unshift(e);
+        //        document.write("Updated array: "+ colors);
+        //        //b
+        //        var e=prompt("what color you want to add at the end of the array");
+        //        colors.push(e);
+        //        document.write("<br/>Updated array: "+ colors);
+        //        //c
+        //        var e=prompt("Add another color at the beginning of the array");
+        //        colors.unshift(e);
+        //        var e=prompt("Add another color at the beginning of the array");
+        //        colors.unshift(e);
+        //        document.write("<br/>Updated array: "+ colors);
+        //        //d
+        //        document.write("<br/>Delete 1st color in array");
+        //        colors.shift();
+        //        document.write("<br/>Updated array: "+ colors);
+        //        //e
+        //        document.write("<br/>Delete last color in array");
+        //        colors.pop();
+        //        document.write("<br/>Updated array: "+ colors);
+        //        //f
+        //        var e=prompt("Which color you want to add.");
+        //        var f=prompt("At which position you want to add color.");
+        //        colors.splice(f,0,e);
+        //        document.write("<br/>Updated array: "+ colors);
+        //        //g
+        //        var e=prompt("At which position you want to delete color.");
+        //        var f=prompt("How many colors you want to delete.");
+        //        colors.splice(e,f);
+        //        document.write("<br/>Updated array: "+ colors);
+
+
+        //        task13
+        //        var score= [320, 230, 480, 120];
+        //        document.write(score.sort());
+
+        //        task14
+        //        var fruits= ["strawberry", "apple", "orange", "banana"];
+        //        document.write("<h3>Fruit List</h3>");
+        //        document.write(fruits +"<br/>");
+        //        document.write("<h3>Ordered Fruit List</h3>");
+        //        document.write(fruits.sort());
+
+        //        task15
+        //       document.write("Cities List: </br>")
+        //        var cities =[ "Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+        //        document.write(cities +"<br/>");
+        //        document.write("Selected Cities List <br/>");
+        //        var selectCities = [];
+        //        selectCities.push(cities[0],cities[2],cities[4]);
+        //        document.write(selectCities);
+
+        //        task16
+        //        var string= ["This", "is", "my" ,"cat"];
+        //        document.write("Array:<br/>");
+        //        document.write(string);
+        //        document.write(" <br/> String: <br/>");
+        //        document.write(string.join(" "));
+
+        //        task17
+        //        var devices= ["kyboard", "mouse", "printer", "monitor"];
+        //        document.write("<h3>Devices: </h3>");
+        //        document.write(devices +"<br/>");
+        //        for(var a=0; a<devices.length; a++){
+        //            document.write("Out: <br/>");
+        //            document.write(devices[a] +"<br>");
+        //        }
+
+        //  task18
+        //        var devices= ["kyboard", "mouse", "printer", "monitor"];
+        //                document.write("<h3>Devices: </h3>");
+        //                document.write(devices +"<br/>");
+        //                for(var a=devices.length-1;a>=0; a--){
+        //                    document.write("Out: <br/>");
+        //                    document.write(devices[a] +"<br>");
+        //                }
+
+        //        task19a
+//        var phones= ["Apple", "Samsung","Motorola", "Nokia", "Sony", "Haier"];
+        //        document.write("<select>");
+        //        document.write("<option>" + phones[0] + "</option>");
+        //        document.write("<option>" + phones[1] + "</option>");
+        //        document.write("<option>" + phones[2] + "</option>");
+        //        document.write("<option>" + phones[3] + "</option>");
+        //        document.write("<option>" + phones[4] + "</option>");
+        //        document.write("<option>" + phones[5] + "</option>");
+        //        document.write("</select>");
+
+        //        task19b
+        //                document.write("<select multiple='multiple'>");
+        //                document.write("<option>" + phones[0] + "</option>");
+        //                document.write("<option>" + phones[1] + "</option>");
+        //                document.write("<option>" + phones[2] + "</option>");
+        //                document.write("<option>" + phones[3] + "</option>");
+        //                document.write("<option>" + phones[4] + "</option>");
+        //                document.write("<option>" + phones[5] + "</option>");
+        //                document.write("</select>");
+
+        //        task20
+        //        var array =[[],[],[]];
+
+        //        task21
+        //        var array =[[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+        //       for(var a=0;a<array.length;a++){
+        //        document.write(array[a].join(" ") +"<br/>");}
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

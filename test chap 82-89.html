@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+//        function checkForLastName() {
+//            var targetField = document.getElementById("lastNameField");
+//            if (targetField.value.length === 0) {
+//                alert("Please enter your last name");
+//                targetField.focus();
+//                targetField.style.background = "yellow";
+//                return false;
+//            }
+//            targetField.style.background = "white";
+//        }
+function checkForSelection() {
+    if (document.getElementById("states").selectedIndex === 0) {
+        alert("Please select a state.");
+        return false;
+    }
+}
+    </script>
+</head>
+<body>
+<!--<form onSubmit="return checkForLastName();">-->
+    <!--Please enter your last name.<br>-->
+    <!--<input type="text" id="lastNameField">-->
+    <!--<input type="submit" value="Submit Form"> </form>-->
+<form onSubmit="return checkForSelection();">
+    <select id="states">
+        <option value="" selected="selected">SELECT A STATE</option>
+        <option value="AL">Alabama</option>
+        <option value="AK">Alaska</option>
+        <option value="AZ">Arizona</option>
+    <option value="AR">Arkansas</option>
+</select>&nbsp;&nbsp;
+    <input type="submit" value="Submit Form">
+</form>
+</body>
+</html>

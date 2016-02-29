@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FOR Loops</title>
+    <script>
+//        task1
+//        for(var a=1;a<=5;a++){
+//            document.write("Hello World <br>");
+//        }
+
+//        task2
+//        for(var a=1;a<=10;a++){
+//            document.write(a + "<br>");
+//        }
+
+//        task3
+//        var a=prompt("Enter a number to print its multiplication table.");
+//        var b=prompt("Enter length of multiplication table.");
+//        document.write("Multiplication Table of " + a + "<br>");
+//        document.write("Length " + b + "<br>");
+//        for(var c=1; c<=b; c++){
+//            document.write(a + "x" + c + "=" + a*c + "<br>");
+//        }
+//
+//        task4
+//        var a=["Nokia", "Samsung", "Apple", "Sony", "Huawei"];
+//        for(var b=0;b< a.length; b++){
+//            document.write(a[b] + "<br>");
+//        }
+
+//        task5
+//            var a=["Apple", "Banana", "Mango", "Orange", "Strawberry"];
+//                    for(var b=0;b< a.length; b++){
+//                        document.write(a[b] + "<br>");
+//                    }
+//             document.write("<br><br>")
+//                for(var c=0; c< a.length; c++){
+//                    document.write("Element at index " + c + " is " + a[c] + "<br>");
+//                }
+//        task6
+//            var a=prompt("Enter number of items");
+//            var c=[];
+//            document.write("Number of items: " + a + "<br><br>");
+//            document.write("Items: <br>");
+//            for(var b=0; b<a; b++){
+//                c[b]=prompt("Enter number of items");
+//                document.write(c[b] + "<br>");
+//            }
+//
+//        task7
+//            document.write("<h3>Counting:</h3>");
+//            for(var a=1;a<=15;a++){
+//                document.write(a + ", ");
+//            }
+//            document.write("<br> <h3>Reverse Counting:</h3>");
+//            for(var a=10;a>=1; a--){
+//                document.write(a  + ", ");
+//            }
+//            document.write("<br><h3> Even:</h3>");
+//            for(var a=0;a<=20; a+=2){
+//                document.write(a + ", ");
+//            }
+//            document.write("<br> Odd: <br>");
+//            for(var a=1;a<=20; a+=2){
+//                document.write(a + ", ");
+//            }
+//            document.write("<br> Series: <br>");
+//            for(var a=2;a<=20; a+=2){
+//                document.write(a + "K, ");
+//            }
+//        task8
+//
+//        var a= ["cake", "apple pie", "cookie", "chips", "patties"];
+//        var b=prompt("Welcome to ABC Bakery.What do you want to order Sir/ Ma'am?");
+//        var d=false;
+//        for(var c=0; c< a.length; c++){
+//            if(b==a[c]){
+//            d=true;
+//            var e=c;}
+//        }
+//        if(d===true){
+//            document.write(b + " is <b>available</b> at index " + e +" in our bakery.");
+//        }
+//        else{
+//            document.write("We are sorry. "+ b +" is <b>not available</b> in our bakery.");
+//        }
+
+//        task9
+//        var a=[24,53,78,91,12,100];
+//        document.write("Array items: " +a +"<br>");
+//        var e;
+//        for(var b=0;b< a.length; b++){
+//            for(var c=b+1;c< a.length ; c++){
+//                if(a[b]<a[c]){
+//                    e=c;
+//                    break;}
+//                else{
+//                e=b;}
+//            }
+//        }
+//        document.write("The largest number is: " + a[e]);
+
+//        task 10
+//        var a=[24,53,78,91,12];
+//        document.write("Array items: " +a +"<br>");
+//        var e;
+//        for(var b=0;b< a.length; b++){
+//            for(var c=b+1;c< a.length ; c++){
+//                if(a[b]>a[c]){
+//                    e=c;
+//                    break;}
+//                else{
+//                    e=b;}
+//            }
+//        }
+//        document.write("The smallest number is: " + a[e]);
+//
+//        task11
+//            var a=[24,53,78,91,12,100];
+//            document.write("Array items: " +a +"<br>");
+//            var e;
+//            for(var b=0;b< a.length; b++){
+//                for(var c=b+1;c< a.length ; c++){
+//                    if(a[b]<a[c]){
+//                        e=c;
+//                        break;}
+//                    else{
+//                        e=b;}
+//                }
+//            }
+//            document.write("The largest number is: " + a[e] +"<br>");
+//            for(var b=0;b< a.length; b++){
+//                for(var c=b+1;c< a.length ; c++){
+//                    if(a[b]>a[c]){
+//                        e=c;
+//                        break;}
+//                    else{
+//                        e=b;}
+//                }
+//            }
+//            document.write("The smallest number is: " + a[e]);
+//
+//        task12
+//        for(a=1; a<=100; a++){
+//            if(a%5==0){
+//                document.write(a +" ,");
+//            }
+//        }
+//
+        task13
+            var students = ["Ali", "Sami", "Taha", "Inam"];
+            var scores = [58, 73, 89, 90];
+
+//
+//        task14
+//        var scores = [12, 45, 3, 22, 34, 50];
+//        document.write("Scores: " + scores + "<br>");
+//        var a=prompt("Enter a score.");
+//        a=parseInt(a);
+//        for(var b=0; b< scores.length; b++){
+//            if(a!==scores[b]){
+//                document.write(scores[b]+ ", ");
+//            }
+//            else{
+//                document.write(scores[b]);
+//                break;
+//            }
+//        }
+
+//        task15
+//        var a = [ [1,2,3] , [4,5,6] , [7,8,9] ];
+//            for(var c=0; c< a.length; c++){
+//                document.write(a[c].join(" ") +"<br>");
+//            }
+//
+//        task16
+//        var a=prompt("Enter a number:");
+//        while(a>0){
+//            document.write(a + ", ");
+//            a-=0.5;
+//        }
+
+//        task17
+//        for(var a=0; a<=20; a++){
+//            if(a%2==0){
+//                document.write(a + " is even. <br>");
+//            }
+//            else{
+//                document.write(a + " is odd. <br>");
+//            }
+//        }
+
+//        task18
+//        var e=1;
+//        for(var a=1; a<=7; a++){
+//            if(a%2!=0){
+//                e=e*a;
+//            }
+//        }
+//        document.write("The product of the odd integers from 1 to 7 is "+e);
+//
+//        task19
+//        var a=prompt("Enter initial number of stars: ");
+//        var d=parseInt(a);
+//        for(var b=1; b<=d; b++){
+//            for(var c=1; c<=a; c++){
+//                document.write("*");
+//            }
+//            a--;
+//            document.write("<br>");
+//        }
+
+//        task20 a
+//        var a=prompt("Enter line number of stars: ");
+//        for(var b=1; b<=a; b++){
+//            for(var c=1; c<=5; c++){
+//                document.write("*");
+//            }
+//            document.write("<br>");
+//        }
+
+//        part b
+//        for(var b=1; b<=a; b++){
+//            for(c=1; c<=b; c++){
+//                document.write("*");
+//            }
+//            document.write("<br>");
+//        }
+//
+//        part c
+//        for(var b=a; b>=1; b--){
+//            for(var c=b; c>=1; c--){
+//                document.write("*");
+//            }
+//            document.write("<br>");
+//        }
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
