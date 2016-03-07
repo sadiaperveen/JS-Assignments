@@ -2,9 +2,363 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>about Me</title>
+<style>
+    /*.listitem{*/
+        /*color: red;*/
+    /*}*/
+
+    /*-----------------------------------task3*/
+/*.demo{*/
+    /*color: red;*/
+/*}*/
+    /*.demo1{*/
+        /*color: black;*/
+    /*}*/
+
+/*task9*/
+    /*ul,li{*/
+        /*display: inline;*/
+    /*}*/
+    /*a{*/
+        /*text-decoration: none;*/
+        /*color: black;*/
+        /*margin-right: 10px;*/
+        /*margin-left: 10px;*/
+    /*}*/
+    /*ul{*/
+        /*margin-left: 30px;*/
+    /*}*/
+    /*#menu_bar{*/
+        /*border-top:3px solid #9cb0d8;*/
+        /*border-bottom:3px solid #9cb0d8;*/
+    /*}*/
+    /*#block{*/
+        /*border-bottom:3px solid #9cb0d8;*/
+        /*border-left:3px solid #9cb0d8;*/
+        /*border-right:3px solid #9cb0d8;*/
+        /*border-top:3px solid #9cb0d8;*/
+        /*margin-top: 5px;*/
+    /*}*/
+/*task10*/
+    #game tr td{
+        width: 60px;
+        height: 60px;
+        background-color: #1155cc;
+        font-size: 55px;
+        padding: 0px;
+        text-align: center;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        visibility: hidden;
+    }
+
+</style>
+    <script>
+//        task1----------------------------------------------------------------------------------------------------
+//        function aboutMe(){
+//            var allbody = document.getElementById("div1");
+//             allbody.setAttribute("font-family","arial,san-serif");
+//            var heading = document.createElement("h1");
+//            var headtxt = document.createTextNode("About Me");
+//            heading.appendChild(headtxt);
+//            var list = document.createElement("ul");
+//
+//            var list1 = document.createElement("li");
+//            var des1 = document.createTextNode("Nickname: Sadia Perveen");
+//            list1.appendChild(des1);
+//            var list2 = document.createElement("li");
+//            var des2 = document.createTextNode("Favourites: 27");
+//            list2.appendChild(des2);
+//            var list3 = document.createElement("li");
+//            var des3 = document.createTextNode("Hometown: Karachi, PK");
+//            list3.appendChild(des3);
+//
+//            list.appendChild(list1);
+//            list.appendChild(list2);
+//            list.appendChild(list3);
+//            list.setAttribute("class","listitem");
+//
+//
+//            var pimg = document.createElement("img");
+//            pimg.setAttribute("src","photo.png");
+//            document.body.appendChild(heading);
+//            document.body.appendChild(list);
+//            document.body.appendChild(pimg);
+//        }
+
+//        task2----------------------------------------------------------------------------------------------------
+//        var googlelogo = "https://www.google.com.pk/logos/doodles/2016/leap-year-2016-5690429188079616-hp.gif";
+//        var yahoologo = "https://s.yimg.com/rz/l/yahoo_en-US_f_p_142x37_2x.png";
+//
+//        task3----------------------------------------------------------------------------------------------------
+//        function change(c){
+//            var b = document.getElementsByTagName("b");
+//            if(c==0){
+//            for(var a=0;a< b.length;a++){
+//                b[a].setAttribute("class","demo");
+//            }}
+//            else{
+//                for(var a=0;a< b.length;a++){
+//                    b[a].setAttribute("class","demo1");
+//                }
+//            }
+//        }
+
+//        task4----------------------------------------------------------------------------------------------------
+//        function list(){
+//            var a = document.getElementById("colors");
+//            var d=[];
+//            for(var c=0;c< a.length;c++){
+//                d[c]=a[c].value;
+//            }
+//            var c = d.join("\n");
+//            alert("No. of items: "+a.length+"\n"+c);
+//}
+
+//        task5----------------------------------------------------------------------------------------------------
+//        function create_table(){
+//            var a = prompt("Enter number of row.");
+//            var b = prompt("Enter number of column");
+//            var c = document.createElement("table");
+//            var y,z;
+//            for(var d=0;d<a;d++){
+//                y = document.createElement("tr");
+//
+//                for(var e=0;e<b;e++){
+//                    z = document.createElement("td");
+//                    var v = document.createTextNode("Row-"+d+"\nColumn-"+e);
+//                    z.appendChild(v);
+//                    y.appendChild(z);
+//                }
+//                c.appendChild(y);
+//            }
+//            c.setAttribute("border","1");
+//            var butt = document.getElementById("task5");
+//            var fbutt = butt.firstChild;
+//            butt.insertBefore(c,fbutt);
+//        }
+//
+//        task6----------------------------------------------------------------------------------------------------
+//        function get_Attributes(){
+//            var a = document.getElementById("myLink").attributes;
+//            for(var b=0;b< a.length;b++){
+//                alert("The value of "+a[b].nodeName+" attribute of the link is: "+a[b].nodeValue);
+//            }
+//        }
+//
+//        task7----------------------------------------------------------------------------------------------------
+//        function color_change(){
+//            var a = document.getElementById("para");
+//            a.setAttribute("style","background: #a2bae7;");
+//        }
+//
+//        task8----------------------------------------------------------------------------------------------------
+//        function convert(){
+//            var a = parseInt(document.getElementById("USD").value);
+//            if(a!=="") {
+//                var c = Math.round(a * 105);
+//                document.getElementById("PKR").value = c;
+//            }
+//            else{
+//                document.getElementById("PKR").value = "";
+//            }
+//        }
+//        function convert1(){
+//            var b = parseInt(document.getElementById("PKR").value);
+//            if(b!==""){
+//                var d = Math.round(b / 105);
+//                document.getElementById("USD").value = d;
+//            }
+//            else{
+//                document.getElementById("USD").value = "";
+//            }
+//        }
+
+//task9-----------------------------------------------------------------------------------------------------
+//function home(a){
+//    var outer = document.getElementById("block");
+//    while(outer.firstChild){
+//        outer.removeChild(outer.firstChild);
+//    }
+//
+//    var heading = document.createElement("h1");
+//    var para = document.createElement("p");
+//    var list = a;
+//    list = list.toString();
+//    switch(list) {
+//        case "1":
+//        {
+//            var ht = document.createTextNode("Home");
+//            heading.appendChild(ht);
+//            outer.appendChild(heading);
+//            var pt = document.createTextNode("Home content goes here.");
+//            para.appendChild(pt);
+//            outer.appendChild(para);
+//            break;
+//        }
+//        case "2":
+//        {
+//            var ht = document.createTextNode("Products");
+//            heading.appendChild(ht);
+//            outer.appendChild(heading);
+//            var pt = document.createTextNode("This is product section.");
+//            para.appendChild(pt);
+//            outer.appendChild(para);
+//            break;
+//        }
+//        case "3":
+//        {
+//            var ht = document.createTextNode("About Us");
+//            heading.appendChild(ht);
+//            outer.appendChild(heading);
+//            var pt = document.createTextNode("We do blah blah blah..");
+//            para.appendChild(pt);
+//            outer.appendChild(para);
+//            break;
+//        }
+//        case "4":
+//        {
+//            var ht = document.createTextNode("Contact Us");
+//            heading.appendChild(ht);
+//            outer.appendChild(heading);
+//            var pt = document.createTextNode("Email:");
+//            outer.appendChild(pt);
+//            var inp = document.createElement("input");
+//            inp.setAttribute("type", "email");
+//            outer.appendChild(inp);
+//            var breaker = document.createElement("br");
+//            outer.appendChild(breaker);
+//            var breaker = document.createElement("br");
+//            outer.appendChild(breaker);
+//            var pt2 = document.createTextNode("Message:");
+//            outer.appendChild(pt2);
+//            var inp2 = document.createElement("textarea");
+//            inp2.setAttribute("cols", "10");
+//            inp2.setAttribute("rows", "10");
+//            outer.appendChild(inp2);
+//            var breaker = document.createElement("br");
+//            outer.appendChild(breaker);
+//            var breaker = document.createElement("br");
+//            outer.appendChild(breaker);
+//            var save = document.createElement("input");
+//            save.setAttribute("type","submit");
+//            save.setAttribute("value","Send");
+//            outer.appendChild(save);
+//            break;
+//        }
+//        default :
+//        {
+//            var ht = document.createTextNode("Home");
+//            heading.appendChild(ht);
+//            outer.appendChild(heading);
+//            var pt = document.createTextNode("Home content goes here.");
+//            para.appendChild(pt);
+//            outer.appendChild(para);
+//        }
+//    }
+//    document.body.appendChild(outer);
+//}
+
+//task10
+    var b=0;
+    var a =[];
+    function change(letter){
+        a[b] = letter;
+        b++;
+        if(a[b]==a[--b]){
+            document.getElementById()
+        }
+    }
+
+    </script>
 </head>
 <body>
+<!--task1-->
+<!--<div id="div1">-->
+<!--<h1>Home Page</h1>-->
+<!--<p>It is a sample code for adding some div's in page.</p>-->
+<!--<p>To see this, click on the below link.</p>-->
+<!--<a href="javaScript:void(0);" onClick="aboutMe();">About us</a>-->
+<!--</div>-->
+
+<!--task2-->
+<!--<img alt="Leap Year 2016" border="0" height="220" src="http://www.google.com/logos/doodles/2016/leap-year-2016-5690429188079616.4-thp.png" style="padding-top:0px" title="Leap Year 2016" width="550" onload="window.lol&amp;&amp;lol()">-->
+
+<!--task3-->
+<!--<p id="para" onMouseover="change(0);" onMouseout="change(1);"><b>We</b> have just started <b>this</b> section for the users (<b>beginner</b> to intermediate) who <b>want</b> to work-->
+    <!--with <b>various</b> JavaScript <b>problems</b> and write scripts online to <b>test</b> their JavaScript <b>skill</b>.</p>-->
+
+<!--task4-->
+<!--<select id="colors">-->
+    <!--<option selected="selected">Red</option>-->
+    <!--<option>Green</option>-->
+    <!--<option>Blue</option>-->
+    <!--<option>White</option>-->
+<!--</select>-->
+<!--<button onclick="list();">Count and Output all items</button>-->
+
+<!--task5-->
+<!--<div id="task5">-->
+<!--<button onclick="create_table();">Create the Table</button>-->
+<!--</div>-->
+
+<!--task6-->
+<!--<p>-->
+    <!--<a id="myLink" type="text/html" hreflang="en-us" rel="nofollow" target="_self" href="http://www.abc.com/">Visit ABC factory</a>-->
+<!--</p>-->
+<!--<button onclick="get_Attributes()"> Click here to get  attributes value</button>-->
+
+<!--task7-->
+<!--<button onclick="color_change();">Click to set Paragraph background color.</button>-->
+<!--<p id="para">JavaScript DOM Assignment.</p>-->
+
+<!--task8-->
+<!--USD:<br>-->
+<!--<input type="text" id="USD" onkeyup="convert();"><br><br>-->
+<!--PKR<br>-->
+<!--<input type="text" id="PKR" onkeyup="convert1();">-->
+
+<!--task9-->
+<!--<div id="menu_bar">-->
+        <!--<img src="logo.png" alt="logo" align="middle" style="width:70px;height:50px;">-->
+    <!--<ul>-->
+        <!--<li><a href="javaScript:void(0);" onclick="home(1);">Home</a></li>-->
+        <!--<li><a href="javaScript:void(0);" onclick="home(2);">Products</a></li>-->
+        <!--<li><a href="javaScript:void(0);" onclick="home(3);">About Us</a></li>-->
+        <!--<li><a href="javaScript:void(0);" onclick="home(4);">Contact Us</a></li>-->
+    <!--</ul>-->
+<!--</div>-->
+<!--<div id="block">-->
+
+<!--</div>-->
+
+<!--task10-->
+<table id="game">
+    <tr><td><a href="javaScript:void(0);" id="00" onclick="change('r');">R</a></td>
+        <td><a href="javaScript:void(0);" id="01" onclick="change('f');">F</a></td>
+        <td><a href="javaScript:void(0);" id="02" onclick="change('q');">Q</a></td>
+        <td><a href="javaScript:void(0);" id="03" onclick="change('s');">S</a></td></tr>
+
+    <tr><td><a href="javaScript:void(0);" id="10" onclick="change('s');">S</a></td>
+        <td><a href="javaScript:void(0);" id="11" onclick="change('h');">H</a></td>
+        <td><a href="javaScript:void(0);" id="12" onclick="change('u');">U</a></td>
+        <td><a href="javaScript:void(0);" id="13" onclick="change('w');">W</a></td></tr>
+
+    <tr><td><a href="javaScript:void(0);" id="20" onclick="change('w');">W</a></td>
+        <td><a href="javaScript:void(0);" id="21" onclick="change('u');">U</a></td>
+        <td><a href="javaScript:void(0);" id="22" onclick="change('r');">R</a></td>
+        <td><a href="javaScript:void(0);" id="23" onclick="change('h');">H</a></td></tr>
+
+    <tr><td><a href="javaScript:void(0);" id="30" onclick="change('q');">Q</a></td>
+        <td><a href="javaScript:void(0);" id="31" onclick="change('x');">X</a></td>
+        <td><a href="javaScript:void(0);" id="32" onclick="change('f');">F</a></td>
+        <td><a href="javaScript:void(0);" id="33" onclick="change('x');">X</a></td></tr>
+</table>
+
+
 
 </body>
 </html>
