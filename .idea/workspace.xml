@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="chap58-68.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chap58-68.html">
+      <file leaf-file-name="Game.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2167939">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7145038">
+              <caret line="50" column="21" selection-start-line="27" selection-start-column="8" selection-end-line="50" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -201,7 +201,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12298682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -831,37 +831,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Game.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4870229">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-          <folding>
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chap58-68.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2167939">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <marker date="1457340441546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457340441546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457340441546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457340441546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457340441546" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1457340441546" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1457340441546" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1457340441546" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1457340441546" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1457340441546" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7145038">
+          <caret line="50" column="21" selection-start-line="27" selection-start-column="8" selection-end-line="50" selection-end-column="21" />
           <folding />
         </state>
       </provider>
