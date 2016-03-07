@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <style>
+    #game tr td{
+    width: 60px;
+    height: 60px;
+    background-color: #1155cc;
+    font-size: 55px;
+    padding: 0px;
+    text-align: center;
+    }
+    a{
+    color: #1155cc;
+    text-decoration: none;
+    }
+        .changing_color{
+            color: white;
+        }
+    .changing_color_back{
+        color: #1155cc;
+    }
+
+    </style>
+    <script>
+        var a = 0;
+        var b = [];
+        var c = 0;
+        var z = 0;
+                    function change(letter){
+                        b[c]= document.getElementById(letter);
+                        b[c].setAttribute("class","changing_color");
+                        var w = b[c];
+                        var t = setTimeout(function(){ w.setAttribute("class","changing_color_back"); },500);
+                        c++;a++;
+                        if(a==2){
+                            a=0;
+                            if(b[c-1].innerHTML==b[c-2].innerHTML){
+                                clearTimeout(t);
+                                b[c-1].setAttribute("class","changing_color");
+                                b[c-2].setAttribute("class","changing_color");
+                                c=0;z+=2;
+                            }
+                        }
+                        if(z==16){
+                            alert("Congrats! You won the game.")
+                            window.location.reload();
+                        }
+                    }
+    </script>
+</head>
+<body>
+<table id="game">
+    <tr><td><a href="javaScript:void(0);" id="00" onclick="change(this.id);">R</a></td>
+        <td><a href="javaScript:void(0);" id="01" onclick="change(this.id);">F</a></td>
+        <td><a href="javaScript:void(0);" id="02" onclick="change(this.id);">Q</a></td>
+        <td><a href="javaScript:void(0);" id="03" onclick="change(this.id);">S</a></td></tr>
+
+    <tr><td><a href="javaScript:void(0);" id="10" onclick="change(this.id);">S</a></td>
+        <td><a href="javaScript:void(0);" id="11" onclick="change(this.id);">H</a></td>
+        <td><a href="javaScript:void(0);" id="12" onclick="change(this.id);">U</a></td>
+        <td><a href="javaScript:void(0);" id="13" onclick="change(this.id);">W</a></td></tr>
+
+    <tr><td><a href="javaScript:void(0);" id="20" onclick="change(this.id);">W</a></td>
+        <td><a href="javaScript:void(0);" id="21" onclick="change(this.id);">U</a></td>
+        <td><a href="javaScript:void(0);" id="22" onclick="change(this.id);">R</a></td>
+        <td><a href="javaScript:void(0);" id="23" onclick="change(this.id);">H</a></td></tr>
+
+    <tr><td><a href="javaScript:void(0);" id="30" onclick="change(this.id);">Q</a></td>
+        <td><a href="javaScript:void(0);" id="31" onclick="change(this.id);">X</a></td>
+        <td><a href="javaScript:void(0);" id="32" onclick="change(this.id);">F</a></td>
+        <td><a href="javaScript:void(0);" id="33" onclick="change(this.id);">X</a></td></tr>
+</table>
+
+</body>
+</html>
