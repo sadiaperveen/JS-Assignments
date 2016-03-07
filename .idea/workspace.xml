@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Game.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Game.html">
+      <file leaf-file-name="chap58-68.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chap58-68.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6167939">
-              <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.2167939">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,9 +69,9 @@
         <option value="$PROJECT_DIR$/chap58-68_task2.html" />
         <option value="$PROJECT_DIR$/Google.html" />
         <option value="$PROJECT_DIR$/chap14-17.html" />
-        <option value="$PROJECT_DIR$/chap58-68.html" />
         <option value="$PROJECT_DIR$/game1.html" />
         <option value="$PROJECT_DIR$/Game.html" />
+        <option value="$PROJECT_DIR$/chap58-68.html" />
       </list>
     </option>
   </component>
@@ -831,38 +831,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chap58-68.html">
+    <entry file="file://$PROJECT_DIR$/Game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64732826">
-          <caret line="276" column="7" selection-start-line="276" selection-start-column="7" selection-end-line="276" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.4870229">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
           <folding>
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457321581074" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457340144730" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Game.html">
+    <entry file="file://$PROJECT_DIR$/chap58-68.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6167939">
-          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.2167939">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
